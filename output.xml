@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.4 on win32)" generated="2024-10-29T16:09:51.144445" rpa="false" schemaversion="5">
+<suite id="s1" name="Google Sheet Automation" source="C:\Users\vikas\OneDrive\Desktop\Robot_Framework\google_sheet_automation.robot">
+<test id="s1-t1" name="Copy Data From Google Sheets And Insert Into PostgreSQL" line="11">
+<kw name="Run Keyword" owner="BuiltIn">
+<kw name="Copy Sheet Data" owner="google_sheets_lib">
+<msg time="2024-10-29T16:09:51.425703" level="INFO">file_cache is only supported with oauth2client&lt;4.0.0</msg>
+<msg time="2024-10-29T16:09:55.887245" level="INFO">Data with timestamp copied successfully.</msg>
+<status status="PASS" start="2024-10-29T16:09:51.410078" elapsed="4.477167"/>
+</kw>
+<arg>copy_sheet_data</arg>
+<doc>Executes the given keyword with the given arguments.</doc>
+<status status="PASS" start="2024-10-29T16:09:51.410078" elapsed="4.477167"/>
+</kw>
+<doc>Copies data from Sheet1 to Sheet2 and inserts it into PostgreSQL</doc>
+<status status="PASS" start="2024-10-29T16:09:51.410078" elapsed="4.477167"/>
+</test>
+<status status="PASS" start="2024-10-29T16:09:51.144445" elapsed="4.742800"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Google Sheet Automation">Google Sheet Automation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
